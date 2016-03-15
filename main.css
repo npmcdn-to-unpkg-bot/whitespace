@@ -196,6 +196,12 @@ __________________________________________________
 		padding: 0px 20px;
 	}
 
+	button:hover p{
+		text-decoration:underline;
+	}
+	
+
+
 	section.portfolio, section.services {
 		background: #f7f7f9;
 		padding:50px 0;
@@ -1128,6 +1134,14 @@ ____________________________________________
 			float:none;
 			display:block;
 		}
+
+		.globey{
+			position:relative;
+			right:6px;
+			bottom:5px;
+
+		}
+
 	}
 
 

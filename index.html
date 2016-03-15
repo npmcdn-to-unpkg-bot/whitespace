@@ -8,61 +8,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://npmcdn.com/flickity@1.1/dist/flickity.min.css">
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="icon" type="image/png" href="images/fav.png">
 
 </head>
 <body>
 	<div class="outerWrapper homePage">
 		<div class="pageHome">
-			<div class="sn sn-ver-1">
-				<ul>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-				</ul>
-			</div>
-
-			<div class="sn sn-ver-2">
-				<ul>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-				</ul>
-			</div>
-
-			<div class="sn sn-ver-3">
-				<ul>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-				</ul>
-			</div>
-
-			<div class="sn sn-ver-4">
-				<ul>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-				</ul>
-			</div>
-
-			<div class="sn sn-ver-5">
-				<ul>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-					<li>&#8212;</li>
-				</ul>
-			</div>
-
+	
 			<header class="clearfix">
 				<nav class="homeNav nav clearfix">
 					<ul class="clearfix">
@@ -82,7 +34,7 @@
 							</form>
 						</li>
 						<li>
-							<form>
+							<form class="globey">
 								<i class="fa fa-globe"></i>
 								<select>
 									    <option value="english">eng</option>
@@ -100,9 +52,11 @@
 					<p class="handwriting">Trendy, Minimal Versatile Solution to Style up your Business
 					</p>
 					<h1>Designer. Photographer. Developer.</h1>
-					<button>
-						<p>more info</p>
-					</button>
+					<a href="#portfolio" class="button-one">
+						<button>
+							<p>more info</p>
+						</button>
+					</a>
 				</div>
 				<!-- heading -->
 					
@@ -296,43 +250,9 @@
 
 	 <script src="https://npmcdn.com/flickity@1.1/dist/flickity.pkgd.min.js"></script>
 	
-	<script>
-	    $(function() {
-	    	$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 0) {
-        $(".sn-ver-1").addClass("open");
-    }
-
-    if (scroll > 300) {
-    	$(".sn-ver-1").removeClass("open");
-    	$(".sn-ver-2").addClass("open");
-    }
-
-    if (scroll > 1000) {
-    	$(".sn-ver-2").removeClass("open");
-    	$(".sn-ver-3").addClass("open");
-
-    }
-
-     if (scroll > 1770) {
-    	$(".sn-ver-3").removeClass("open");
-    	$(".sn-ver-4").addClass("open");
-    }
-
-      if (scroll > 2300) {
-    	$(".sn-ver-4").removeClass("open");
-    	$(".sn-ver-5").addClass("open");
-    }
-	});
+	
 
 
-
-
-
-});
-</script>
 
 	 
 </body>
